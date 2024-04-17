@@ -55,15 +55,6 @@ const CommentsBlock = () => {
 
                 setTotalLikes(totalLikes + count);
 
-                // let filteredArr = newArr.filter((el) => el.parent == null);
-
-                // filteredArr.map((el) => {
-                //     newArr.map(
-                //         (item) =>
-                //             item.parent === el.id && el.children.push(item),
-                //     );
-                // });
-
                 setTotalComments(totalComments + newArr.length);
 
                 newArr.map((item) => {

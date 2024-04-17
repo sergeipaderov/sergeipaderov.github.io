@@ -15,7 +15,7 @@ const Comment = ({comment, onAddLike}) => {
     );
 };
 
-const BaseComment = ({comment, sub = false, onAddLike}) => {
+const BaseComment = ({comment, onAddLike}) => {
     const date = new Date(comment?.created);
 
     return (
