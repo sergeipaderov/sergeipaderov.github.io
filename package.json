@@ -1,5 +1,6 @@
 {
-    "name": "technical_task",
+    "homepage": "https://sergeipaderov.github.io/test",
+    "name": "sergeipaderov.github.io",
     "version": "0.1.0",
     "private": true,
     "scripts": {
