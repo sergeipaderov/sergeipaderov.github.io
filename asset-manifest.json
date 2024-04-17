@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.358d53d1.css",
-    "main.js": "/static/js/main.5e11c4f8.js",
-    "static/media/han-solo.jpg": "/static/media/han-solo.84705bac66e252072c67.jpg",
-    "static/media/filledHeart.svg": "/static/media/filledHeart.aeae0df7ba3df96626716d79b11771bf.svg",
-    "static/media/heartGrey.svg": "/static/media/heartGrey.104d7fa95e36c483908db2d211f96e3f.svg",
-    "static/media/heart.svg": "/static/media/heart.1ace6d76bd9bdedb3fae0f4d09c99c33.svg",
-    "index.html": "/index.html",
-    "main.358d53d1.css.map": "/static/css/main.358d53d1.css.map",
-    "main.5e11c4f8.js.map": "/static/js/main.5e11c4f8.js.map"
+    "main.css": "/test/static/css/main.358d53d1.css",
+    "main.js": "/test/static/js/main.32a182fc.js",
+    "static/media/han-solo.jpg": "/test/static/media/han-solo.84705bac66e252072c67.jpg",
+    "static/media/filledHeart.svg": "/test/static/media/filledHeart.aeae0df7ba3df96626716d79b11771bf.svg",
+    "static/media/heartGrey.svg": "/test/static/media/heartGrey.104d7fa95e36c483908db2d211f96e3f.svg",
+    "static/media/heart.svg": "/test/static/media/heart.1ace6d76bd9bdedb3fae0f4d09c99c33.svg",
+    "index.html": "/test/index.html",
+    "main.358d53d1.css.map": "/test/static/css/main.358d53d1.css.map",
+    "main.32a182fc.js.map": "/test/static/js/main.32a182fc.js.map"
   },
   "entrypoints": [
     "static/css/main.358d53d1.css",
-    "static/js/main.5e11c4f8.js"
+    "static/js/main.32a182fc.js"
   ]
 }
