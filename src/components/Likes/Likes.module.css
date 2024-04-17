@@ -1,0 +1,10 @@
+.likesBLock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.likesBLockIcon {
+    margin-right: 8px;
+    cursor: pointer;
+}

@@ -1,0 +1,68 @@
+.comment {
+    width: 100%;
+    margin-bottom: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.subComment {
+    width: calc(100% - 40px);
+    margin-bottom: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 40px;
+}
+
+.infoBlock {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.authorAvatar {
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    margin-right: 20px;
+}
+
+.authorNameWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.authorName {
+    font-weight: bold;
+    margin: 0 0 4px 0;
+}
+
+.lastVisit {
+    color: #8297AB;
+    margin: 0;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.textBlock {
+    padding-left: 88px;
+    text-align: justify;
+}

@@ -1,0 +1,23 @@
+.commentsBlock {
+    width: 562px;
+    height: 562px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 60px;
+    flex-direction: column;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.buttonWrapper {
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.button {
+    width: 234px;
+    height: 36px;
+    background-color: #313439;
+    border-radius: 5px;
+}
