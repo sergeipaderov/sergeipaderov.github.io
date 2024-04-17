@@ -8,12 +8,7 @@ const Comment = ({comment, onAddLike}) => {
             <BaseComment comment={comment} onAddLike={onAddLike} />
             {comment.children.length
                 ? comment.children.map((item, i) => (
-                      <BaseComment
-                          onAddLike={onAddLike}
-                          comment={item}
-                          sub={true}
-                          key={i}
-                      />
+                      <Comment comment={item} onAddLike={onAddLike} key={i} />
                   ))
                 : null}
         </>
@@ -25,7 +20,11 @@ const BaseComment = ({comment, sub = false, onAddLike}) => {
 
     return (
         <>
-            <div className={sub ? styles.subComment : styles.comment}>
+            <div
+                className={
+                    comment.parent != null ? styles.subComment : styles.comment
+                }
+            >
                 <div className={styles.infoBlock}>
                     <div className={styles.author}>
                         <img

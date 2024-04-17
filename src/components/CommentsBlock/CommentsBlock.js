@@ -73,8 +73,6 @@ const CommentsBlock = () => {
                     }
                 });
 
-                console.log("--->", newArr);
-
                 let filteredArr = newArr.filter((el) => el.parent == null);
 
                 setComments([...comments, ...filteredArr]);
