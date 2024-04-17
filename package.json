@@ -6,7 +6,9 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "prettier": "prettier --write '*/**/*.{ts,tsx,js,jsx,css,scss,json}'"
+        "prettier": "prettier --write '*/**/*.{ts,tsx,js,jsx,css,scss,json}'",
+        "predeploy" : "npm run build",
+        "deploy" : "gh-pages -d build"
     },
     "dependencies": {
         "@testing-library/jest-dom": "5.16.4",
@@ -42,5 +44,8 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "gh-pages": "^6.1.1"
     }
 }
