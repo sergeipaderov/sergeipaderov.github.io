@@ -1,6 +1,7 @@
 .commentsBlock {
     width: 562px;
-    height: 562px;
+    min-height: 562px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: flex-start;

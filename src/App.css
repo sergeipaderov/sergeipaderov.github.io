@@ -2,8 +2,13 @@
     text-align: center;
     display: flex;
     justify-content: space-around;
-    /* min-height: 100vh; */
+    min-height: 100vh;
     height: auto;
+    background: url('./assets/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .App-logo {
